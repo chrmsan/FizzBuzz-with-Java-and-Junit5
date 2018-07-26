@@ -12,8 +12,10 @@ class FizzBuzzTest {
 	@DisplayName("Print input number")
 	void returnInput() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		String result = fizzbuzz.play(n);
+		int input = 2;
+		String result = fizzbuzz.play(input);
 		String expectedResult = "2";
+		
 		assertEquals(expectedResult, result);
 	}
 
