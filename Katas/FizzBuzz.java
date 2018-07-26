@@ -6,7 +6,9 @@ public class FizzBuzz {
 		
 		if (number / 3 == 1) {
 			return "Fizz";
-		}else {
+		}else if (number / 5 == 1) {
+			return "Buzz";	
+		}else{
 			return String.valueOf(number);
 		}
 		

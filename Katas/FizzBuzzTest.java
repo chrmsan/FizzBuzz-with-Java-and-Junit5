@@ -31,5 +31,16 @@ class FizzBuzzTest {
 		
 		assertEquals(expectedResult, result);
 	}
+	
+	@Test
+	@DisplayName("Returns 'Buzz' when input number is 5")
+	void returnBuzz() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int input = 5;
+		String result = fizzbuzz.play(input);
+		String expectedResult = "Buzz";
+		
+		assertEquals(expectedResult, result);
+	}
 
 }
