@@ -3,7 +3,13 @@ package Katas;
 public class FizzBuzz {
 	
 	public String play(int number) {
-		return String.valueOf(number);
+		
+		if (number / 3 == 1) {
+			return "Fizz";
+		}else {
+			return String.valueOf(number);
+		}
+		
 	}
 
 }

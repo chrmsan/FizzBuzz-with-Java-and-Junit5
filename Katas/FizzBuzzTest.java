@@ -7,6 +7,8 @@ import org.junit.jupiter.api.DisplayName;
 
 
 class FizzBuzzTest {
+	
+	
 
 	@Test
 	@DisplayName("Returns input number as string")
