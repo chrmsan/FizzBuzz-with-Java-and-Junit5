@@ -42,5 +42,16 @@ class FizzBuzzTest {
 		
 		assertEquals(expectedResult, result);
 	}
+	
+	@Test
+	@DisplayName("Returns 'FizzBuzz' when input number is a multiple 3 and 5")
+	void returnFizzBuzz() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int input = 15;
+		String result = fizzbuzz.play(input);
+		String expectedResult = "FizzBuzz";
+		
+		assertEquals(expectedResult, result);
+	}
 
 }
